@@ -73,7 +73,7 @@ public class WuphfController {
     }
 
     @PostMapping(
-            value = "/player/topten",
+            value = "/player/lastten",
             consumes = {MediaType.APPLICATION_JSON_VALUE},
             produces = {MediaType.APPLICATION_JSON_VALUE})
     ResponseEntity<LastTenResponse> topTen(@Valid @RequestBody LastTenRequest lastTenRequest) {
